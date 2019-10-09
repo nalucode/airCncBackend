@@ -10,7 +10,7 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-mongoose.connect('mongodb+srv://nalucode:luaanme17@naluapp-shcgz.mongodb.net/semana09?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://yusername:password@namecluster-shcgz.mongodb.net/semana09?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
